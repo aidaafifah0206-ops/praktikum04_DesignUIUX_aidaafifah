@@ -1,0 +1,155 @@
+body {
+    background-color: #F8EDD9;
+    font-family: Arial, sans-serif; 
+    margin: 0;
+    padding: 10px;
+}
+
+.isi p:first-child::first-letter {
+    text-align: justify;
+    font-size: 250%;
+    float: left;
+    line-height: 0.5;
+    margin-right: 5px;
+    font-weight: bold;
+    color: #0000cd;
+}
+
+#header {
+    background-color: #dcb388; 
+    text-align: center;         
+    padding: 15px 20px;         
+    margin-bottom: 10px;        
+}
+
+#header h1 {
+    color: #0000cd;        
+    font-size: 20px;            
+    margin-bottom: 10px;        
+    font-weight: bold;
+}
+
+#header blockquote {
+    background-color: #ffd700; 
+    padding: 8px 10px;   
+    font-size: 11px;            
+    color: #000000;             
+    margin: 0 auto;            
+    max-width: 90%;      
+    line-height: 1.4;           
+}
+
+#soekarno {
+    display: inline-block;
+    margin-top: 4px;
+    text-decoration: underline; 
+}
+
+#header + div {
+    text-align: center;   
+    margin: 15px 0;    
+}
+
+#header + div ul {
+    list-style-type: none;  
+    padding: 0;
+    margin: 0;
+    display: inline-block;  
+}
+
+#header + div ul li {
+    display: inline;   
+    margin: 0 15px;     
+}
+
+#header + div ul li a {
+    color: #0000cd;    
+    text-decoration: underline;
+}
+
+.gambar {
+    text-align: center;  
+    margin: 15px 0;
+}
+
+.gambar img {
+    max-width: 250px;     
+    height: auto;
+    margin: 0 5px;    
+    vertical-align: middle;
+}
+
+.koleksi {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.koleksi img {
+    width: 160px;
+    height: 120px;
+    object-fit: cover;
+    margin: 0 4px;
+    display: inline-block;
+    vertical-align: middle;
+    border: 3px solid #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.promo {
+    text-align: center;
+    margin: 30px 0;
+    
+}
+
+.promo h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.promo h3 {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.6;
+}
+
+.promo del {
+    color: red;
+}
+
+.promo strong {
+    color: red;
+}
+
+#Wa {
+    color: red;
+    font-weight: bold;
+}
+
+.promo h4 {
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.promo ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+.promo ol li {
+    display: inline-block;
+    margin: 0 4px;
+}
+
+.promo ol li a {
+    display: inline-block;
+    background-color: #333333;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 6px 14px;
+    border-radius: 6px;
+    font-size: 12px;
+	}
